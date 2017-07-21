@@ -86,11 +86,11 @@
             </div>
         </div>
         <div class = "row bottom-left">
-          <div class="col-xs-6 col-lg-offset-1">
+          <div class="col-xs-6 col-md-offset-1">
             <a href = "https://www.facebook.com/MIT-Bhangra-110361982390029/" class="fa fa-3x fa-facebook-official bottom-left" style="color:rgb(255,255,255);"> </a>
           </div>
-          <div class="col-xs-6 col-lg-offset-1">
-            <a href = "https://www.facebook.com/MIT-Bhangra-110361982390029/" class="fa fa-3x fa-soundcloud " style="color:rgb(255,255,255);"> </a>
+          <div class="col-xs-6 col-md-offset-1">
+            <a href = "https://www.facebook.com/MIT-Bhangra-110361982390029/" class="fa fa-3x fa-soundcloud " style="color:rgb(255,255,255); text-decoration: none;"> </a>
           </div>
         </div>
         <!-- <div class = "row bottom-right">
@@ -104,7 +104,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="document.getElementById('video').pause();">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -112,7 +112,7 @@
             <div class="modal-video">
               <div class="embed-responsive embed-responsive-16by9">
                 <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=o_fnfcHIakU&output=embed" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-                <video class= "video" controls>
+                <video class= "video" id="video" controls>
                   <source src="img/intro.mp4" type="video/mp4">
                     Your browser doesn't support video.
                   </video>
@@ -122,31 +122,6 @@
         </div>
       </div>
     </div>
-
-
-    <!-- <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Performance
-                                </div>
-                                <div class="project-name">
-                                    MIT Sala
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-              </div>
-            </div>
-     </section> -->
-
-
 
 
     <section class="bg-primary" id="about">
@@ -160,7 +135,7 @@
                     <p class="text-faded"> Since our humble beginnings in 1991, we have grown enormously while adhering to our mission of exposing the community to bhangra traditions and culture. We have competed with some of the best bhangra teams in both the United States and Canada. We have performed at various showcases and at many of MIT's domestic events. Every summer, we teach bhangra to people in the Greater Boston area of all ages and skill levels. We also offer many services, including costume rentals and private performances. We strongly believe in our mission of spreading and sharing the bhangra lifestyle. After all, bhangra knows no race, color, or ethnicity - only talent and passion. and passion. </p>
                     <p class="text-faded"> Interested in <a href= "https://www.facebook.com/MIT-Bhangra-110361982390029/" style="color: rgba(0,0,0,0.6)">joining</a>? We hold tryouts during the beginning of September! We can also accomodate special requests: bhangra-exec@mit.edu </p>
 
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <!-- <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a> -->
                 </div>
             </div>
         </div>

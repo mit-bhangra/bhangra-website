@@ -67,11 +67,16 @@
       $('#' + $(this).data('modal-id')).modal();
     });
 
-    $('#modal-video').modal({
-      show: false
-    }).on('hidden.bs.modal', function() {
-      $(this).find('video')[0].pause();
-    });
+    // $(document).on('click', 'a.close', function(event)) {
+    //   $(this).find('modal-video')[0].pause();
+    // });
+
+    ////attempt to code video to stop on close, but failed
+    // $('#modal-video').modal({
+    //   show: false
+    // }).on('hidden.bs.modal', function() {
+    //   $(this).find('video')[0].pause();
+    // });
 
 
     //Allow the scroll-to-top button to work
