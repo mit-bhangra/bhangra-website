@@ -61,9 +61,6 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-            <li>
-              <a class="page-scroll" href="#contact">FAQ</a>
-            </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -77,74 +74,43 @@
                 <h1 id="homeHeading" >MIT Bhangra</h1>
                 <hr>
                 <p style="background: rgba(0,0,0,0.6); width:330px;">join the tradition. join the lifestyle</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <!-- <a href = "#modal" class="btn btn-primary btn-xl page-scroll" id="meet-team">Meet the team!</a> -->
+                <a href="#modal-video" class="btn btn-primary btn-xl launch-modal" data-modal-id="modal-video" data-toggle="modal">
+                  <!-- <span class="video-link-icon"><i class="fa fa-play"> </i> </span> -->
+                  <!-- <span class="video-link-text"> Meet the team!</span> -->
+                  Meet the team!
+                </a>
+                <!-- <p style="padding-top: 50px padding-bottom: 50px"> </p> -->
+                <!-- <p style="background: rgba(0,0,0,0.6); width:1000px;"> Interested in <a href= "https://www.facebook.com/MIT-Bhangra-110361982390029/">joining</a>? We hold tryouts during the beginning of September! We can also accomodate special requests: bhangra-exec@mit.edu </p> -->
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We love Bhangra. A Lot.</h2>
-                    <hr class="light">
-                    <p class="text-faded">A lot. And we can't say it enough! We are a group of individuals from MIT and the Boston area who love Bhangra and are dedicated to exhibiting the energy and excitement that comes with it!
-
-Bhangra is a high-energy and upbeat folk dance from the state of Punjab in Northern India. It has grown in style and popularity over the years and today is one of the most popular forms of art. Routines often include props and acrobatics. Bhangra music incorporates not only lively beats from Punjab, but also a combination of other genres and styles including pop, rock, and hip-hop.
-
-MAYA JAY ROCKS!!! Since our humble beginnings in 1991, we have grown enormously while adhering to our mission of exposing the community to bhangra traditions and culture. We have competed with some of the best bhangra teams in both the United States and Canada. We have performed at various showcases and at many of MIT's domestic events. Every summer, we teach bhangra to people in the Greater Boston area of all ages and skill levels. We also offer many services, including costume rentals and private performances.
-
-We strongly believe in our mission of spreading and sharing the bhangra lifestyle. After all, bhangra knows no race, color, or ethnicity - only talent and passion.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                </div>
+    <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-video">
+              <div class="embed-responsive embed-responsive-16by9">
+                <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=o_fnfcHIakU&output=embed" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                <video controls>
+                  <source src="img/intro.mp4" type="video/mp4">
+                    Your browser doesn't support video.
+                  </video>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Performances</h3>
-                        <p class="text-muted">We'd love to perform at your special occasion</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Costume Rentals</h3>
-                        <p class="text-muted">Be a member of the rainbow squad for a day :)</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Summer Bhangra</h3>
-                        <p class="text-muted">Check out our summer bhangra classes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>CPW workshop</h3>
-                        <p class="text-muted">No better first step to MIT's vibrant culture.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="no-padding" id="portfolio">
+    <!-- <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
@@ -162,6 +128,149 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
                         </div>
                     </a>
                 </div>
+              </div>
+            </div>
+     </section> -->
+
+
+
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">We Love Bhangra. A Lot.</h2>
+                    <hr class="light">
+                    <p class="text-faded">We are a group of individuals from MIT and the Boston area who love Bhangra and are dedicated to exhibiting the energy and excitement that comes with it! Bhangra is a high-energy and upbeat folk dance from the state of Punjab in Northern India. It has grown in style and popularity over the years and today bhangra is celebrated on an international, competitive circuit. 
+                    </p>
+                    <p class="text-faded"> Since our humble beginnings in 1991, we have grown enormously while adhering to our mission of exposing the community to bhangra traditions and culture. We have competed with some of the best bhangra teams in both the United States and Canada. We have performed at various showcases and at many of MIT's domestic events. Every summer, we teach bhangra to people in the Greater Boston area of all ages and skill levels. We also offer many services, including costume rentals and private performances. We strongly believe in our mission of spreading and sharing the bhangra lifestyle. After all, bhangra knows no race, color, or ethnicity - only talent and passion. and passion. </p>
+                    <p class="text-faded"> Interested in <a href= "https://www.facebook.com/MIT-Bhangra-110361982390029/" style="color: rgba(0,0,0,0.6)">joining</a>? We hold tryouts during the beginning of September! We can also accomodate special requests: bhangra-exec@mit.edu </p>
+
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Join us!</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-4 text-center">
+                    <div class="service-box">
+                    <a href = "#perf" class="fa fa-4x fa-diamond text-primary sr-icons" data-toggle="collapse" style="text-decoration:none"> </a>
+                        <h3>Performances</h3>
+                        <p class="text-muted">We'd love to perform at your special occasion</p>
+                        <!-- <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Performances</h3>
+                        <p class="text-muted">We'd love to perform at your special occasion</p> -->
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-4 text-center">
+                    <div class="service-box">
+                    <a href = "#rent" class="fa fa-4x fa-paper-plane text-primary sr-icons" data-toggle="collapse" style="text-decoration:none"> </a>
+                        <h3>Costume Rentals</h3>
+                        <p class="text-muted">Be a member of the rainbow squad for a day :)</p>
+                        <!-- <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Costume Rentals</h3>
+                        <p class="text-muted">Be a member of the rainbow squad for a day :)</p> -->
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-4 text-center">
+                    <div class="service-box">
+                    <a href = "#classes" class="fa fa-4x fa-sun-o text-primary sr-icons" data-toggle="collapse" style="text-decoration:none"> </a>
+                        <h3>Summer Bhangra</h3>
+                        <p class="text-muted">Check out our summer bhangra classes!</p>
+                        <!-- <i class="fa fa-4x fa-sun-o text-primary sr-icons"></i>
+                        <h3>Summer Bhangra</h3>
+                        <p class="text-muted">Check out our summer bhangra classes!</p> -->
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href = #demo class="fa fa-4x fa-heart text-primary sr-icons" data-toggle="collapse" style="text-decoration:none"> </a>
+                        <h3> CPW workshop </h3>
+                        <p class="text-muted">No better first step to MIT's vibrant culture.</p>
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>CPW workshop</h3>
+                        <p class="text-muted">No better first step to MIT's vibrant culture.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="perf" class="collapse">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Performances</h2>
+                    <hr class="primary">
+                    <p> Insert performances here <a href="https://www.youtube.com/watch?v=v6rMKXZHSMI"> HELLO FRIENDS WATCH THIS VID </a> like that </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section id="rent" class="collapse">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Rentals</h2>
+                    <hr class="primary">
+                    <p> Insert words here </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section id="classes" class="collapse">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Summer Bhangra</h2>
+                    <hr class="primary">
+                    <p> Insert summer bhangra <a href="https://www.facebook.com/MitSummerBhangra/">link </a> here </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+        </div>
+    </section>
+
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Performance
+                                </div>
+                                <div class="project-name">
+                                    MIT Cultural Show 2015
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
@@ -171,7 +280,7 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
                                     Competition
                                 </div>
                                 <div class="project-name">
-                                    Team Bonding
+                                    BBC Team Mixer
                                 </div>
                             </div>
                         </div>
@@ -186,7 +295,7 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
                                     Performance
                                 </div>
                                 <div class="project-name">
-                                    Skills debut
+                                    Freshmen Debut
                                 </div>
                             </div>
                         </div>
@@ -201,7 +310,7 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
                                     Competition
                                 </div>
                                 <div class="project-name">
-                                    ADZ (Akh De Z????)
+                                    BBC Second Place
                                 </div>
                             </div>
                         </div>
@@ -216,7 +325,7 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
                                     Holi
                                 </div>
                                 <div class="project-name">
-                                    Bhangra exec (minus a few)
+                                    Bhangra exec
                                 </div>
                             </div>
                         </div>
@@ -231,7 +340,7 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
                                     Competition
                                 </div>
                                 <div class="project-name">
-                                    ADZ (who knows what it means??)
+                                    Aa Dekhen Zara
                                 </div>
                             </div>
                         </div>
@@ -269,7 +378,7 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
         <!--     </div> -->
         <!-- </div> -->
         <div id="formform">
-             <form id="contact-form" role="form" method="post" action="index.php">
+             <form id="contact-form" role="form" method="post" action="form.php">
                <p> Hello! </p>
                <p> My
                  <label for="your-name">name</label> is
@@ -291,7 +400,7 @@ We strongly believe in our mission of spreading and sharing the bhangra lifestyl
                    <small>send</small>
                  </button>
                </p>
-               <h4> Feel free to give us a call at 123-456-7890 or send private inquires to bhangraexec@mit.edu</h4>
+               <h4> Feel free send private inquires to bhangra-exec@mit.edu</h4>
              </form>
           </div>
     </section>
