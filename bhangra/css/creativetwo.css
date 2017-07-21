@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header2.jpg');
   text-align: center;
   color: white;
 }
@@ -585,13 +585,14 @@ small {
 }
 
 .modal-body {
-  padding: 25px 25px 25px 25px;
-  height: auto;
-  width: auto;
+  /*padding: 25px 25px 25px 25px;*/
+  height: 80%;
+  width: 80%;
+  margin-left: 120px;
 }
 
 .modal-header {
-  padding: 0px 0px 15px 15px;
+  /*padding: 0px 0px 15px 15px;*/
   text-align: left;
 }
 
@@ -607,4 +608,47 @@ small {
   font-weight: 300;
   text-shadow: none;
   opacity: 1;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  /*padding-top: 100px;*/
+}
+
+.btn-img-bhangra {
+  width: 12%;
+  height: 10%;
+  color: #000000;
+}
+
+.btn-img-dress {
+  width: 100px;
+  height: 100px;
+  color: #000000;
+}
+
+.logo {
+  width: 10%;
+  height: 10%
+  right: 0px;
+  opacity: 0.6;
+  /*display: none;*/
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 1;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.6;
 }

@@ -66,7 +66,27 @@
       $('#' + $(this).data('modal-id')).modal();
     });
 
+
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 100) {
+        $('.scrollTop').fadeIn();
+      }else {
+        $('.scrollTop').fadeOut();
+      }
+    });
+
+    $(document).on('click', 'a.scrollTop', function(e)) {
+      e.preventDefault();
+      $('html, body').animate({scroll-top: 0}, 800);
+      return false;
+    });
+
 })(jQuery); // End of use strict
+
+// function topFunction() {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// }
 
 //adapted from website design templates done by Erlen (erlen.co.uk)
 
