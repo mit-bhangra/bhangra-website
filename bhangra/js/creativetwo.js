@@ -61,12 +61,20 @@
         }
     });
 
+    //Code for launching the modal video
     $(document).on('click', 'a.launch-modal', function(event)) {
       event.preventDefault();
       $('#' + $(this).data('modal-id')).modal();
     });
 
+    $('#modal-video').modal({
+      show: false
+    }).on('hidden.bs.modal', function() {
+      $(this).find('video')[0].pause();
+    });
 
+
+    //Allow the scroll-to-top button to work
     $(window).scroll(function() {
       if ($(this).scrollTop() > 100) {
         $('.scrollTop').fadeIn();
@@ -82,11 +90,6 @@
     });
 
 })(jQuery); // End of use strict
-
-// function topFunction() {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// }
 
 //adapted from website design templates done by Erlen (erlen.co.uk)
 
