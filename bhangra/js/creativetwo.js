@@ -10,6 +10,12 @@
             event.preventDefault();
         });
 
+        // Collapse
+        var $myGroup = $('#services');
+        $myGroup.on('show.bs.collapse', '.collapse', function() {
+            $myGroup.find('.collapse.in').collapse('hide');
+        });
+
         // Highlight the top nav as scrolling occurs
         $('body').scrollspy({
             target: '.navbar-fixed-top',
