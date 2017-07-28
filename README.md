@@ -1,3 +1,8 @@
-# pkarnati2004.github.io
+# Pramoda Karnati github.io
 
-A repo for my websites
+A repository for my websites
+
+To access any of these website, type the following into your browser:
+```
+pkarnati2004.github.io/{folder_name}
+```
