@@ -60,6 +60,19 @@ p {
     color: white;
 }
 
+.bg-dark2 {
+    background-color: black;
+    color: white;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+.bg-service-box {
+    background-image: url('../img/team4.jpg');
+}
+
 .text-faded {
     color: rgba(255, 255, 255, 0.7);
 }
