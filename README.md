@@ -1,8 +1,7 @@
-# Pramoda Karnati github.io
+# Respository for MIT Bhangra Website
 
-A repository for my websites
+Created a website for the MIT Bhangra Dance Team for the new school year.
 
-To access any of these website, type the following into your browser:
-```
-pkarnati2004.github.io/{folder_name}
-```
+To access the website hosted through github, please navigate to: pkarnati.github.io/bhangra-website.
+
+To access the website hosted through MIT, please navigate to: http://bhangra.mit.edu
