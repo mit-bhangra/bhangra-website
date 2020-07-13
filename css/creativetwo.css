@@ -15,7 +15,7 @@ body {
 }
 
 hr {
-    border-color: #F05F40;
+    border-color: #809c9a;
     border-width: 3px;
     max-width: 50px;
 }
@@ -28,12 +28,12 @@ a {
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
-    color: #F05F40;
+    color: #809c9a;
 }
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #0d3532;
 }
 
 h1,
@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #F05F40;
+    background-color: #809c9a;
 }
 
 .bg-dark {
@@ -99,7 +99,7 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #809c9a;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -107,7 +107,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #0d3532;
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -127,12 +127,12 @@ aside {
 
 .navbar-default .nav>li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #F05F40;
+    color: #809c9a;
 }
 
 .navbar-default .nav>li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #F05F40 !important;
+    color: #809c9a !important;
     background-color: transparent;
 }
 
@@ -166,12 +166,12 @@ aside {
         border-color: rgba(34, 34, 34, 0.05);
     }
     .navbar-default.affix .navbar-header .navbar-brand {
-        color: #F05F40;
+        color: #809c9a;
         font-size: 14px;
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #0d3532;
     }
     .navbar-default.affix .nav>li>a,
     .navbar-default.affix .nav>li>a:focus {
@@ -179,7 +179,7 @@ aside {
     }
     .navbar-default.affix .nav>li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #F05F40;
+        color: #809c9a;
     }
 }
 
@@ -281,7 +281,7 @@ header .header-content .header-content-inner p {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(240, 95, 64, 0.9);
+    background: #0d3532;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -338,7 +338,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #F05F40;
+    color: #809c9a;
 }
 
 .no-gutter>[class*='col-'] {
@@ -401,8 +401,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     color: white;
-    background-color: #F05F40;
-    border-color: #F05F40;
+    background-color: #809c9a;
+    border-color: #809c9a;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
@@ -415,8 +415,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: white;
-    background-color: #ee4b28;
-    border-color: #ed431f;
+    background-color: #0d3532;
+    border-color: #0d3532;
 }
 
 .btn-primary:active,
@@ -443,12 +443,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #F05F40;
-    border-color: #F05F40;
+    background-color: #809c9a;
+    border-color: #809c9a;
 }
 
 .btn-primary .badge {
-    color: #F05F40;
+    color: #809c9a;
     background-color: white;
 }
 
