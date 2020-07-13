@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #809c9a;
+    background-color: rgba(236, 181, 62, 0.95);
 }
 
 .bg-dark {
@@ -401,7 +401,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     color: white;
-    background-color: #809c9a;
+    background-color: rgba(236, 181, 62, 0.95);
     border-color: #809c9a;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
