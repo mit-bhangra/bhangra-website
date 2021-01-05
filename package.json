@@ -26,4 +26,7 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
     }
+    "scripts": {
+        "start": "node gulpfile.js"
+    }
 }
