@@ -1,6 +1,7 @@
 (function($) {
     "use strict"; // Start of use strict
-
+    var width = $("#embedvid").width();
+    $('#embedvid').css('height',width*444/790);
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', 'a.page-scroll', function(event) {
         var $anchor = $(this);
